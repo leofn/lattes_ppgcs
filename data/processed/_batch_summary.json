@@ -1,0 +1,158 @@
+[
+  {
+    "nome": "Ana Rodrigues Cavalcanti Alves",
+    "id": "6506286038414113",
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/6506286038414113.json",
+    "size": 2315
+  },
+  {
+    "nome": "Antônio da Silva Câmara",
+    "id": "4868229187967997",
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/_summary.json",
+    "size": 179
+  },
+  {
+    "nome": "Bruno Costa Barreiros",
+    "id": "5274872727972308",
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/_summary.json",
+    "size": 177
+  },
+  {
+    "nome": "Clóvis Roberto Zimmermann",
+    "id": "7132903863839824",
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/_summary.json",
+    "size": 182
+  },
+  {
+    "nome": "Débora Previatti",
+    "id": "0212366491733548",
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/_summary.json",
+    "size": 173
+  },
+  {
+    "nome": "Felipe Vargas",
+    "id": "6150854485177629",
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/_summary.json",
+    "size": 169
+  },
+  {
+    "nome": "Iara Maria de Almeida Souza",
+    "id": "1266626414413147",
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/_summary.json",
+    "size": 183
+  },
+  {
+    "nome": "Jair Batista da Silva",
+    "id": "K4768629T7",
+    "status": "skipped",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/K4768629T7.json"
+  },
+  {
+    "nome": "Julio Souto Salom",
+    "id": "8500045280840862",
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/_summary.json",
+    "size": 173
+  },
+  {
+    "nome": "Leandro de Paula Santos",
+    "id": "3833811692758640",
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/_summary.json",
+    "size": 179
+  },
+  {
+    "nome": "Leonardo Fernandes Nascimento",
+    "id": "K4765153H0",
+    "status": "skipped",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/K4765153H0.json"
+  },
+  {
+    "nome": "Lucas Amaral de Oliveira",
+    "id": "0974813858531390",
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/_summary.json",
+    "size": 180
+  },
+  {
+    "nome": "Luiz Claudio Lourenço",
+    "id": "K4767407T9",
+    "status": "skipped",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/K4767407T9.json"
+  },
+  {
+    "nome": "Maria Gabriela Hita",
+    "id": "2408407341179334",
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/_summary.json",
+    "size": 175
+  },
+  {
+    "nome": "Maria Rosário Gonçalves de Carvalho",
+    "id": "1298757533709756",
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/_summary.json",
+    "size": 193
+  },
+  {
+    "nome": "Mariana Aparecida dos Santos Panta",
+    "id": "1563910977768814",
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/_summary.json",
+    "size": 190
+  },
+  {
+    "nome": "Mariana Thorstensen Possas",
+    "id": "K4779766J8",
+    "status": "skipped",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/K4779766J8.json"
+  },
+  {
+    "nome": "Miriam Cristina Marcilio Rabelo",
+    "id": "7239267596119717",
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/_summary.json",
+    "size": 187
+  },
+  {
+    "nome": "Paula Cristina da Silva",
+    "id": "K4785350J1",
+    "status": "skipped",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/K4785350J1.json"
+  },
+  {
+    "nome": "Paulo César Borges Alves",
+    "id": "4053383742253379",
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/_summary.json",
+    "size": 181
+  },
+  {
+    "nome": "Rafael de Aguiar Arantes",
+    "id": "9187555671886787",
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/_summary.json",
+    "size": 180
+  },
+  {
+    "nome": "Ricardo Pagliuso Regatieri",
+    "id": "3077741187299322",
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/_summary.json",
+    "size": 182
+  },
+  {
+    "nome": "Sue Angélica Serra Iamamoto",
+    "id": "4927287864728189",
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/_summary.json",
+    "size": 184
+  }
+]
