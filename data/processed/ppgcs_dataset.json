@@ -3,7 +3,7 @@
     "nome": "Ana Rodrigues Cavalcanti Alves",
     "nome_site": "Ana Rodrigues Cavalcanti Alves",
     "email": "anarodrigues@ufba.br",
-    "lattes_url": "http://lattes.cnpq.br/6506286038414113",
+    "lattes_url": "http://lattes.cnpq.br/K4267461U4",
     "id_lattes": "6506286038414113",
     "short_id": "6506286038414113",
     "ultima_atualizacao": "24/06/2026",
@@ -47,13 +47,13 @@
     "num_secoes": 19,
     "full_text_len": 70497,
     "arquivo": "6506286038414113.json",
-    "lattes_id": "6506286038414113"
+    "lattes_id": "K4267461U4"
   },
   {
     "nome": "Antonio da Silva Camara",
     "nome_site": "Antônio da Silva Câmara",
     "email": "camara@ufba.br",
-    "lattes_url": "http://lattes.cnpq.br/4868229187967997",
+    "lattes_url": "http://lattes.cnpq.br/K4781309T5",
     "id_lattes": "4868229187967997",
     "short_id": "K4781309T5",
     "ultima_atualizacao": "26/01/2026",
@@ -114,13 +114,14 @@
     ],
     "num_secoes": 19,
     "full_text_len": 80000,
-    "arquivo": "K4781309T5.json"
+    "arquivo": "K4781309T5.json",
+    "lattes_id": "K4781309T5"
   },
   {
     "nome": "Bruno Costa Barreiros",
     "nome_site": "Bruno Costa Barreiros",
     "email": "bruno.barreiros@ufba.br",
-    "lattes_url": "http://lattes.cnpq.br/5274872727972308",
+    "lattes_url": "http://lattes.cnpq.br/K4203618Y8",
     "id_lattes": "5274872727972308",
     "short_id": "K4203618Y8",
     "ultima_atualizacao": "08/06/2026",
@@ -182,13 +183,14 @@
     "arquivo": "K4203618Y8.json",
     "scholar_h_index": 5,
     "scholar_url": "https://scholar.google.com/citations?user=9TDNLnMAAAAJ&hl=pt-BR",
-    "scholar_id": "9TDNLnMAAAAJ"
+    "scholar_id": "9TDNLnMAAAAJ",
+    "lattes_id": "K4203618Y8"
   },
   {
     "nome": "Clóvis Roberto Zimmermann",
     "nome_site": "Clóvis Roberto Zimmermann",
     "email": "clovis.zimmermann@gmail.com",
-    "lattes_url": "http://lattes.cnpq.br/7132903863839824",
+    "lattes_url": "http://lattes.cnpq.br/K4133464Z4",
     "id_lattes": "7132903863839824",
     "short_id": "K4133464Z4",
     "ultima_atualizacao": "18/06/2026",
@@ -253,13 +255,14 @@
     "arquivo": "K4133464Z4.json",
     "scholar_h_index": 9,
     "scholar_url": "https://scholar.google.com/citations?user=Qb0TkpgAAAAJ&hl=pt-BR",
-    "scholar_id": "Qb0TkpgAAAAJ"
+    "scholar_id": "Qb0TkpgAAAAJ",
+    "lattes_id": "K4133464Z4"
   },
   {
     "nome": "Débora Previatti",
     "nome_site": "Débora Previatti",
     "email": "deborapreviatti@ufba.br",
-    "lattes_url": "http://lattes.cnpq.br/0212366491733548",
+    "lattes_url": "http://lattes.cnpq.br/K4746553H6",
     "id_lattes": "0212366491733548",
     "short_id": "K4746553H6",
     "ultima_atualizacao": "01/06/2026",
@@ -325,13 +328,14 @@
     "arquivo": "K4746553H6.json",
     "scholar_h_index": 4,
     "scholar_url": "https://scholar.google.com/citations?user=hM6bcrAAAAAJ&hl=pt-BR",
-    "scholar_id": "hM6bcrAAAAAJ"
+    "scholar_id": "hM6bcrAAAAAJ",
+    "lattes_id": "K4746553H6"
   },
   {
     "nome": "Felipe Vargas",
     "nome_site": "Felipe Vargas",
     "email": "vargas.felipe@ufba.br",
-    "lattes_url": "http://lattes.cnpq.br/6150854485177629",
+    "lattes_url": "http://lattes.cnpq.br/K4443212J6",
     "id_lattes": "6150854485177629",
     "short_id": "K4443212J6",
     "ultima_atualizacao": "02/07/2026",
@@ -394,13 +398,14 @@
     ],
     "num_secoes": 21,
     "full_text_len": 80000,
-    "arquivo": "K4443212J6.json"
+    "arquivo": "K4443212J6.json",
+    "lattes_id": "K4443212J6"
   },
   {
     "nome": "Iara Maria de Almeida Souza",
     "nome_site": "Iara Maria de Almeida Souza",
     "email": "imas@ufba.br",
-    "lattes_url": "http://lattes.cnpq.br/1266626414413147",
+    "lattes_url": "http://lattes.cnpq.br/K4721467Y8",
     "id_lattes": "1266626414413147",
     "short_id": "K4721467Y8",
     "ultima_atualizacao": "23/03/2026",
@@ -459,7 +464,8 @@
     ],
     "num_secoes": 17,
     "full_text_len": 80000,
-    "arquivo": "K4721467Y8.json"
+    "arquivo": "K4721467Y8.json",
+    "lattes_id": "K4721467Y8"
   },
   {
     "nome": "Jair Batista da Silva",
@@ -529,13 +535,14 @@
     ],
     "num_secoes": 22,
     "full_text_len": 80000,
-    "arquivo": "K4768629T7.json"
+    "arquivo": "K4768629T7.json",
+    "lattes_id": "K4768629T7"
   },
   {
     "nome": "Julio Souto Salom",
     "nome_site": "Julio Souto Salom",
     "email": "juliosalom@ufba.br",
-    "lattes_url": "http://lattes.cnpq.br/8500045280840862",
+    "lattes_url": "http://lattes.cnpq.br/K4358727U2",
     "id_lattes": "8500045280840862",
     "short_id": "K4358727U2",
     "ultima_atualizacao": "22/06/2026",
@@ -596,13 +603,14 @@
     ],
     "num_secoes": 19,
     "full_text_len": 38726,
-    "arquivo": "K4358727U2.json"
+    "arquivo": "K4358727U2.json",
+    "lattes_id": "K4358727U2"
   },
   {
     "nome": "Leandro de Paula Santos",
     "nome_site": "Leandro de Paula Santos",
     "email": "psleandro@ufba.br",
-    "lattes_url": "http://lattes.cnpq.br/3833811692758640",
+    "lattes_url": "http://lattes.cnpq.br/K4426323H3",
     "id_lattes": "3833811692758640",
     "short_id": "K4426323H3",
     "ultima_atualizacao": "25/06/2026",
@@ -663,7 +671,8 @@
     ],
     "num_secoes": 19,
     "full_text_len": 80000,
-    "arquivo": "K4426323H3.json"
+    "arquivo": "K4426323H3.json",
+    "lattes_id": "K4426323H3"
   },
   {
     "nome": "Leonardo Fernandes Nascimento",
@@ -732,13 +741,14 @@
     ],
     "num_secoes": 21,
     "full_text_len": 80000,
-    "arquivo": "K4765153H0.json"
+    "arquivo": "K4765153H0.json",
+    "lattes_id": "K4765153H0"
   },
   {
     "nome": "Lucas Amaral de Oliveira",
     "nome_site": "Lucas Amaral de Oliveira",
     "email": "lucasamaral@ufba.br",
-    "lattes_url": "http://lattes.cnpq.br/0974813858531390",
+    "lattes_url": "http://lattes.cnpq.br/K4450055E2",
     "id_lattes": "0974813858531390",
     "short_id": "K4450055E2",
     "ultima_atualizacao": "31/05/2026",
@@ -803,7 +813,8 @@
     ],
     "num_secoes": 23,
     "full_text_len": 80000,
-    "arquivo": "K4450055E2.json"
+    "arquivo": "K4450055E2.json",
+    "lattes_id": "K4450055E2"
   },
   {
     "nome": "Luiz Claudio Lourenço",
@@ -874,13 +885,14 @@
     "arquivo": "K4767407T9.json",
     "scholar_h_index": 14,
     "scholar_url": "https://scholar.google.com/citations?user=5WM4Wq4AAAAJ&hl=pt-BR",
-    "scholar_id": "5WM4Wq4AAAAJ"
+    "scholar_id": "5WM4Wq4AAAAJ",
+    "lattes_id": "K4767407T9"
   },
   {
     "nome": "Maria Gabriela Hita",
     "nome_site": "Maria Gabriela Hita",
     "email": "mghita63@gmail.com",
-    "lattes_url": "http://lattes.cnpq.br/2408407341179334",
+    "lattes_url": "http://lattes.cnpq.br/K4781283Z9",
     "id_lattes": "2408407341179334",
     "short_id": "K4781283Z9",
     "ultima_atualizacao": "11/06/2026",
@@ -948,13 +960,14 @@
     "arquivo": "K4781283Z9.json",
     "scholar_h_index": 13,
     "scholar_url": "https://scholar.google.com/citations?user=Mc7zoFkAAAAJ&hl=pt-BR",
-    "scholar_id": "Mc7zoFkAAAAJ"
+    "scholar_id": "Mc7zoFkAAAAJ",
+    "lattes_id": "K4781283Z9"
   },
   {
     "nome": "Maria Rosário Gonçalves de Carvalho",
     "nome_site": "Maria Rosário Gonçalves de Carvalho",
     "email": "rosario@ufba.br",
-    "lattes_url": "http://lattes.cnpq.br/1298757533709756",
+    "lattes_url": "http://lattes.cnpq.br/B244",
     "id_lattes": "1298757533709756",
     "short_id": "K4783500Y2",
     "ultima_atualizacao": "27/03/2026",
@@ -1019,13 +1032,14 @@
     ],
     "num_secoes": 23,
     "full_text_len": 80000,
-    "arquivo": "K4783500Y2.json"
+    "arquivo": "K4783500Y2.json",
+    "lattes_id": "B244"
   },
   {
     "nome": "Mariana Aparecida dos Santos Panta",
     "nome_site": "Mariana Aparecida dos Santos Panta",
     "email": "marianasantospanta@gmail.com",
-    "lattes_url": "http://lattes.cnpq.br/1563910977768814",
+    "lattes_url": "http://lattes.cnpq.br/K4251774A3",
     "id_lattes": "1563910977768814",
     "short_id": "K4251774A3",
     "ultima_atualizacao": "10/04/2026",
@@ -1091,7 +1105,8 @@
     "arquivo": "K4251774A3.json",
     "scholar_h_index": 5,
     "scholar_url": "https://scholar.google.com/citations?user=PkDx0bwAAAAJ&hl=pt-BR",
-    "scholar_id": "PkDx0bwAAAAJ"
+    "scholar_id": "PkDx0bwAAAAJ",
+    "lattes_id": "K4251774A3"
   },
   {
     "nome": "Mariana Thorstensen Possas",
@@ -1160,13 +1175,14 @@
     ],
     "num_secoes": 21,
     "full_text_len": 80000,
-    "arquivo": "K4779766J8.json"
+    "arquivo": "K4779766J8.json",
+    "lattes_id": "K4779766J8"
   },
   {
     "nome": "Miriam Cristina Marcilio Rabelo",
     "nome_site": "Miriam Cristina Marcilio Rabelo",
     "email": "mcmrabelo@uol.com.br",
-    "lattes_url": "http://lattes.cnpq.br/7239267596119717",
+    "lattes_url": "http://lattes.cnpq.br/K4781277P4",
     "id_lattes": "7239267596119717",
     "short_id": "K4781277P4",
     "ultima_atualizacao": "26/03/2026",
@@ -1225,7 +1241,8 @@
     ],
     "num_secoes": 17,
     "full_text_len": 80000,
-    "arquivo": "K4781277P4.json"
+    "arquivo": "K4781277P4.json",
+    "lattes_id": "K4781277P4"
   },
   {
     "nome": "Paula Cristina da Silva",
@@ -1293,13 +1310,14 @@
     ],
     "num_secoes": 20,
     "full_text_len": 80000,
-    "arquivo": "K4785350J1.json"
+    "arquivo": "K4785350J1.json",
+    "lattes_id": "K4785350J1"
   },
   {
     "nome": "Paulo César Borges Alves",
     "nome_site": "Paulo César Borges Alves",
     "email": "paulo.c.alves@uol.com.br",
-    "lattes_url": "http://lattes.cnpq.br/4053383742253379",
+    "lattes_url": "http://lattes.cnpq.br/K4781081J7",
     "id_lattes": "4053383742253379",
     "short_id": "K4781081J7",
     "ultima_atualizacao": "10/02/2026",
@@ -1361,13 +1379,14 @@
     ],
     "num_secoes": 20,
     "full_text_len": 80000,
-    "arquivo": "K4781081J7.json"
+    "arquivo": "K4781081J7.json",
+    "lattes_id": "K4781081J7"
   },
   {
     "nome": "Rafael de Aguiar Arantes",
     "nome_site": "Rafael de Aguiar Arantes",
     "email": "rafaelarantes13@gmail.com",
-    "lattes_url": "http://lattes.cnpq.br/9187555671886787",
+    "lattes_url": "http://lattes.cnpq.br/K4559273H6",
     "id_lattes": "9187555671886787",
     "short_id": "K4559273H6",
     "ultima_atualizacao": "09/06/2026",
@@ -1428,13 +1447,14 @@
     ],
     "num_secoes": 19,
     "full_text_len": 80000,
-    "arquivo": "K4559273H6.json"
+    "arquivo": "K4559273H6.json",
+    "lattes_id": "K4559273H6"
   },
   {
     "nome": "Ricardo Pagliuso Regatieri",
     "nome_site": "Ricardo Pagliuso Regatieri",
     "email": "ricardo.pagliuso@ufba.br",
-    "lattes_url": "http://lattes.cnpq.br/3077741187299322",
+    "lattes_url": "http://lattes.cnpq.br/K4768934H0",
     "id_lattes": "3077741187299322",
     "short_id": "K4768934H0",
     "ultima_atualizacao": "16/04/2026",
@@ -1497,13 +1517,14 @@
     ],
     "num_secoes": 21,
     "full_text_len": 80000,
-    "arquivo": "K4768934H0.json"
+    "arquivo": "K4768934H0.json",
+    "lattes_id": "K4768934H0"
   },
   {
     "nome": "Sue Angélica Serra Iamamoto",
     "nome_site": "Sue Angélica Serra Iamamoto",
     "email": "sue.iamamoto@ufba.br",
-    "lattes_url": "http://lattes.cnpq.br/4927287864728189",
+    "lattes_url": "http://lattes.cnpq.br/K4452805E2",
     "id_lattes": "4927287864728189",
     "short_id": "K4452805E2",
     "ultima_atualizacao": "20/01/2026",
@@ -1568,6 +1589,7 @@
     "arquivo": "K4452805E2.json",
     "scholar_h_index": 7,
     "scholar_url": "https://scholar.google.com/citations?user=v1NVezkAAAAJ&hl=en",
-    "scholar_id": "v1NVezkAAAAJ"
+    "scholar_id": "v1NVezkAAAAJ",
+    "lattes_id": "K4452805E2"
   }
 ]
