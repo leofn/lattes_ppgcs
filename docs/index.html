@@ -31,14 +31,17 @@ header .subtitle { font-size: 0.85em; opacity: 0.7; margin-top: 5px; }
 .card:hover { transform: translateY(-3px); box-shadow: 0 4px 16px rgba(0,0,0,0.15); }
 .card-header { display: flex; justify-content: space-between; align-items: start; margin-bottom: 12px; }
 .card-header h3 { font-size: 1.1em; color: #1a237e; flex: 1; }
-.lattes-link { color: #1a237e; text-decoration: none; font-size: 0.85em; white-space: nowrap; }
-.lattes-link:hover { text-decoration: underline; }
+.card-links { display: flex; gap: 10px; }
+.lattes-link, .scholar-link { color: #1a237e; text-decoration: none; font-size: 0.85em; white-space: nowrap; }
+.lattes-link:hover, .scholar-link:hover { text-decoration: underline; }
+.scholar-link { color: #1565c0; }
 .card-meta { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
 .badge { font-size: 0.75em; padding: 3px 8px; border-radius: 12px; }
 .badge-active { background: #c8e6c9; color: #2e7d32; }
 .badge-off { background: #eee; color: #999; }
 .badge-info { background: #e3f2fd; color: #1565c0; }
 .badge-date { background: #fff3e0; color: #e65100; }
+.badge-scholar { background: #f3e5f5; color: #7b1fa2; }
 .card-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 12px; }
 .stat { text-align: center; padding: 8px; background: #f8f9fa; border-radius: 8px; }
 .stat-num { display: block; font-size: 1.4em; font-weight: bold; color: #1a237e; }
@@ -68,7 +71,7 @@ footer .update-info { margin-top: 10px; color: #aaa; }
 <header>
 <h1>PPGCS · Ciências Sociais — UFBA</h1>
 <p>Corpo Docente Permanente · Análise dos Currículos Lattes</p>
-<p class="subtitle">23 docentes · 714 projetos · 1658 orientações · 834 citações</p>
+<p class="subtitle">23 docentes · 714 projetos · 1658 orientações · 2956 citações</p>
 </header>
 <div class="stats-bar">
 <div class="stat-bar-item"><div class="num">23</div><div class="label">Docentes</div></div>
@@ -78,10 +81,10 @@ footer .update-info { margin-top: 10px; color: #aaa; }
 <div class="stat-bar-item"><div class="num">1658</div><div class="label">Orientações</div></div>
 <div class="stat-bar-item"><div class="num">1070</div><div class="label">Bancas</div></div>
 <div class="stat-bar-item"><div class="num">66</div><div class="label">Artigos</div></div>
-<div class="stat-bar-item"><div class="num">834</div><div class="label">Citações</div></div>
+<div class="stat-bar-item"><div class="num">2956</div><div class="label">Citações</div></div>
 </div>
 <div class="container">
-<div class="rankings"><div class="ranking-card"><h3>Citações (Google Scholar)</h3><div class="rank-row"><span class="rank-pos">1º</span><span class="rank-name">Leonardo Fernandes Nascimento</span><span class="rank-val">445 🔗</span></div><div class="rank-row"><span class="rank-pos">2º</span><span class="rank-name">Rafael de Aguiar Arantes</span><span class="rank-val">184 🔗</span></div><div class="rank-row"><span class="rank-pos">3º</span><span class="rank-name">Mariana Aparecida dos Santos Panta</span><span class="rank-val">104 🔗</span></div><div class="rank-row"><span class="rank-pos">4º</span><span class="rank-name">Julio Souto Salom</span><span class="rank-val">100 🔗</span></div><div class="rank-row"><span class="rank-pos">5º</span><span class="rank-name">Clóvis Roberto Zimmermann</span><span class="rank-val">1 🔗</span></div></div><div class="ranking-card"><h3>Projetos de Pesquisa</h3><div class="rank-row"><span class="rank-pos">1º</span><span class="rank-name">Maria Rosário Gonçalves de Carvalho</span><span class="rank-val">84 📊</span></div><div class="rank-row"><span class="rank-pos">2º</span><span class="rank-name">Maria Gabriela Hita</span><span class="rank-val">81 📊</span></div><div class="rank-row"><span class="rank-pos">3º</span><span class="rank-name">Felipe Vargas</span><span class="rank-val">54 📊</span></div><div class="rank-row"><span class="rank-pos">4º</span><span class="rank-name">Leonardo Fernandes Nascimento</span><span class="rank-val">46 📊</span></div><div class="rank-row"><span class="rank-pos">5º</span><span class="rank-name">Antonio da Silva Camara</span><span class="rank-val">43 📊</span></div></div><div class="ranking-card"><h3>Orientações</h3><div class="rank-row"><span class="rank-pos">1º</span><span class="rank-name">Antonio da Silva Camara</span><span class="rank-val">282 🎓</span></div><div class="rank-row"><span class="rank-pos">2º</span><span class="rank-name">Maria Gabriela Hita</span><span class="rank-val">178 🎓</span></div><div class="rank-row"><span class="rank-pos">3º</span><span class="rank-name">Maria Rosário Gonçalves de Carvalho</span><span class="rank-val">148 🎓</span></div><div class="rank-row"><span class="rank-pos">4º</span><span class="rank-name">Miriam Cristina Marcilio Rabelo</span><span class="rank-val">114 🎓</span></div><div class="rank-row"><span class="rank-pos">5º</span><span class="rank-name">Iara Maria de Almeida Souza</span><span class="rank-val">88 🎓</span></div></div></div>
+<div class="rankings"><div class="ranking-card"><h3>Citações (Google Scholar)</h3><div class="rank-row"><span class="rank-pos">1º</span><span class="rank-name">Luiz Claudio Lourenço</span><span class="rank-val">801 🔗</span></div><div class="rank-row"><span class="rank-pos">2º</span><span class="rank-name">Maria Gabriela Hita</span><span class="rank-val">606 🔗</span></div><div class="rank-row"><span class="rank-pos">3º</span><span class="rank-name">Leonardo Fernandes Nascimento</span><span class="rank-val">445 🔗</span></div><div class="rank-row"><span class="rank-pos">4º</span><span class="rank-name">Clóvis Roberto Zimmermann</span><span class="rank-val">424 🔗</span></div><div class="rank-row"><span class="rank-pos">5º</span><span class="rank-name">Sue Angélica Serra Iamamoto</span><span class="rank-val">186 🔗</span></div></div><div class="ranking-card"><h3>Projetos de Pesquisa</h3><div class="rank-row"><span class="rank-pos">1º</span><span class="rank-name">Maria Rosário Gonçalves de Carvalho</span><span class="rank-val">84 📊</span></div><div class="rank-row"><span class="rank-pos">2º</span><span class="rank-name">Maria Gabriela Hita</span><span class="rank-val">81 📊</span></div><div class="rank-row"><span class="rank-pos">3º</span><span class="rank-name">Felipe Vargas</span><span class="rank-val">54 📊</span></div><div class="rank-row"><span class="rank-pos">4º</span><span class="rank-name">Leonardo Fernandes Nascimento</span><span class="rank-val">46 📊</span></div><div class="rank-row"><span class="rank-pos">5º</span><span class="rank-name">Antonio da Silva Camara</span><span class="rank-val">43 📊</span></div></div><div class="ranking-card"><h3>Orientações</h3><div class="rank-row"><span class="rank-pos">1º</span><span class="rank-name">Antonio da Silva Camara</span><span class="rank-val">282 🎓</span></div><div class="rank-row"><span class="rank-pos">2º</span><span class="rank-name">Maria Gabriela Hita</span><span class="rank-val">178 🎓</span></div><div class="rank-row"><span class="rank-pos">3º</span><span class="rank-name">Maria Rosário Gonçalves de Carvalho</span><span class="rank-val">148 🎓</span></div><div class="rank-row"><span class="rank-pos">4º</span><span class="rank-name">Miriam Cristina Marcilio Rabelo</span><span class="rank-val">114 🎓</span></div><div class="rank-row"><span class="rank-pos">5º</span><span class="rank-name">Iara Maria de Almeida Souza</span><span class="rank-val">88 🎓</span></div></div></div>
 <input type="text" class="search-box" id="search" placeholder="🔍 Buscar por nome, área, tema...">
 <div class="sort-buttons">
 <button class="sort-btn active" data-sort="name">Nome (A-Z)</button>
@@ -92,11 +95,15 @@ footer .update-info { margin-top: 10px; color: #aaa; }
 <div class="cards-grid" id="cards">    <div class="card" data-name="ana rodrigues cavalcanti alves" data-projects="0" data-citations="0" data-orientations="0">
       <div class="card-header">
         <h3>Ana Rodrigues Cavalcanti Alves</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/6506286038414113" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/6506286038414113" target="_blank" class="lattes-link">Lattes ↗</a>
+          
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-off">Doutorado </span>
         <span class="badge badge-off">Pós-doc </span>
+        
         
         
       </div>
@@ -117,13 +124,17 @@ footer .update-info { margin-top: 10px; color: #aaa; }
     <div class="card" data-name="antonio da silva camara" data-projects="43" data-citations="0" data-orientations="282">
       <div class="card-header">
         <h3>Antonio da Silva Camara</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/4868229187967997" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/4868229187967997" target="_blank" class="lattes-link">Lattes ↗</a>
+          
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-active">Pós-doc ✓</span>
         <span class="badge badge-info">Université Paris Diderot, PARIS 7, França</span>
         <span class="badge badge-date">Atualizado: 26/01/2026</span>
+        
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">43</span><span class="stat-label">Projetos</span></div>
@@ -139,22 +150,26 @@ footer .update-info { margin-top: 10px; color: #aaa; }
       <p class="card-resumo">ANTONIO DA SILVA CÂMARA concluiu o doutorado em Sociologia - Université de Paris VII em 1994. Realizou Pós-doutoramento no CNRS/Universidade Toulouse le Mirail (França) em 2000. Atualmente é PROFESSOR Titular da Universidade Federal da Bahia. Publicou 36 artigos em periódicos especializados. Organiz...</p>
       <div class="card-areas"><strong>Áreas:</strong> 1.Grande área: Ciências Humanas / Área: Sociologia / Subárea: Sociologia da Arte.2.Grande área: Ciências Humanas / Área: Sociologia / Subárea: Fundamentos da Sociologia/Especialidade: Teoria Sociológica.3.Grande área: Ciências Humanas / Área: Sociologia / Subárea: Sociologia Rural.4.Grande área: Ciências Humanas / Área: Sociologia / Subárea: Outras Sociologias Específicas.5.Grande área: Ciências H</div>
     </div>
-    <div class="card" data-name="bruno costa barreiros" data-projects="10" data-citations="0" data-orientations="34">
+    <div class="card" data-name="bruno costa barreiros" data-projects="10" data-citations="44" data-orientations="34">
       <div class="card-header">
         <h3>Bruno Costa Barreiros</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/5274872727972308" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/5274872727972308" target="_blank" class="lattes-link">Lattes ↗</a>
+          <a href="https://scholar.google.com/citations?user=9TDNLnMAAAAJ&hl=pt-BR" target="_blank" class="scholar-link">Scholar ↗</a>
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-off">Pós-doc </span>
         <span class="badge badge-info">Universidade Federal de Santa Catarina, UFSC, Brasil</span>
         <span class="badge badge-date">Atualizado: 08/06/2026</span>
+        <span class="badge badge-scholar">h-index: 5</span>
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">10</span><span class="stat-label">Projetos</span></div>
         <div class="stat"><span class="stat-num">34</span><span class="stat-label">Orientações</span></div>
         <div class="stat"><span class="stat-num">2</span><span class="stat-label">Bancas</span></div>
-        <div class="stat"><span class="stat-num">0</span><span class="stat-label">Citações</span></div>
+        <div class="stat"><span class="stat-num">44</span><span class="stat-label">Citações</span></div>
       </div>
       <div class="card-production">
         <span class="prod-item">📄 3 artigos</span>
@@ -168,22 +183,26 @@ Grande área: Ciências Humanas / Área: Sociologia / Subárea: Sociologia Econ�
 2.
 Grande área: Ciências Humanas / Área: Sociologia / Subárea: So</div>
     </div>
-    <div class="card" data-name="clóvis roberto zimmermann" data-projects="24" data-citations="1" data-orientations="70">
+    <div class="card" data-name="clóvis roberto zimmermann" data-projects="24" data-citations="424" data-orientations="70">
       <div class="card-header">
         <h3>Clóvis Roberto Zimmermann</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/7132903863839824" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/7132903863839824" target="_blank" class="lattes-link">Lattes ↗</a>
+          <a href="https://scholar.google.com/citations?user=Qb0TkpgAAAAJ&hl=pt-BR" target="_blank" class="scholar-link">Scholar ↗</a>
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-active">Pós-doc ✓</span>
         <span class="badge badge-info">Ruprecht-Karls-Universität Heidelberg, HEIDELBERG, Alemanha</span>
         <span class="badge badge-date">Atualizado: 18/06/2026</span>
+        <span class="badge badge-scholar">h-index: 9</span>
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">24</span><span class="stat-label">Projetos</span></div>
         <div class="stat"><span class="stat-num">70</span><span class="stat-label">Orientações</span></div>
         <div class="stat"><span class="stat-num">30</span><span class="stat-label">Bancas</span></div>
-        <div class="stat"><span class="stat-num">1</span><span class="stat-label">Citações</span></div>
+        <div class="stat"><span class="stat-num">424</span><span class="stat-label">Citações</span></div>
       </div>
       <div class="card-production">
         <span class="prod-item">📄 3 artigos</span>
@@ -195,22 +214,26 @@ Grande área: Ciências Humanas / Área: Sociologia / Subárea: So</div>
 1.
 Grande área: Ciências Humanas / Área: S</div>
     </div>
-    <div class="card" data-name="débora previatti" data-projects="28" data-citations="0" data-orientations="52">
+    <div class="card" data-name="débora previatti" data-projects="28" data-citations="50" data-orientations="52">
       <div class="card-header">
         <h3>Débora Previatti</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/0212366491733548" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/0212366491733548" target="_blank" class="lattes-link">Lattes ↗</a>
+          <a href="https://scholar.google.com/citations?user=hM6bcrAAAAAJ&hl=pt-BR" target="_blank" class="scholar-link">Scholar ↗</a>
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-active">Pós-doc ✓</span>
         <span class="badge badge-info">Universidade Federal de Santa Catarina, UFSC, Brasil</span>
         <span class="badge badge-date">Atualizado: 01/06/2026</span>
+        <span class="badge badge-scholar">h-index: 4</span>
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">28</span><span class="stat-label">Projetos</span></div>
         <div class="stat"><span class="stat-num">52</span><span class="stat-label">Orientações</span></div>
         <div class="stat"><span class="stat-num">6</span><span class="stat-label">Bancas</span></div>
-        <div class="stat"><span class="stat-num">0</span><span class="stat-label">Citações</span></div>
+        <div class="stat"><span class="stat-num">50</span><span class="stat-label">Citações</span></div>
       </div>
       <div class="card-production">
         <span class="prod-item">📄 3 artigos</span>
@@ -225,13 +248,17 @@ Grande área: Ciências Humanas / Área: Sociologia / Subárea</div>
     <div class="card" data-name="felipe vargas" data-projects="54" data-citations="0" data-orientations="76">
       <div class="card-header">
         <h3>Felipe Vargas</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/6150854485177629" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/6150854485177629" target="_blank" class="lattes-link">Lattes ↗</a>
+          
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-active">Pós-doc ✓</span>
         <span class="badge badge-info">Universidade Federal do Rio Grande do Sul, UFRGS, Brasil</span>
         <span class="badge badge-date">Atualizado: 02/07/2026</span>
+        
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">54</span><span class="stat-label">Projetos</span></div>
@@ -250,13 +277,17 @@ Grande área: Ciências Humanas / Área: Sociologia / Subárea</div>
     <div class="card" data-name="iara maria de almeida souza" data-projects="36" data-citations="0" data-orientations="88">
       <div class="card-header">
         <h3>Iara Maria de Almeida Souza</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/1266626414413147" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/1266626414413147" target="_blank" class="lattes-link">Lattes ↗</a>
+          
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-active">Pós-doc ✓</span>
         <span class="badge badge-info">Universidade Federal da Bahia, UFBA, Brasil</span>
         <span class="badge badge-date">Atualizado: 23/03/2026</span>
+        
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">36</span><span class="stat-label">Projetos</span></div>
@@ -277,13 +308,17 @@ Grande área: Ciências Humanas / Área: Sociologia / Sub</div>
     <div class="card" data-name="jair batista da silva" data-projects="27" data-citations="0" data-orientations="70">
       <div class="card-header">
         <h3>Jair Batista da Silva</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/K4768629T7" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/K4768629T7" target="_blank" class="lattes-link">Lattes ↗</a>
+          
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-active">Pós-doc ✓</span>
         <span class="badge badge-info">Universidade Estadual de Campinas, UNICAMP, Brasil</span>
         <span class="badge badge-date">Atualizado: 13/06/2026</span>
+        
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">27</span><span class="stat-label">Projetos</span></div>
@@ -306,13 +341,17 @@ Grande área: Ciências Humanas / Área: Sociologia / Subárea: Sociologia do </
     <div class="card" data-name="julio souto salom" data-projects="3" data-citations="100" data-orientations="10">
       <div class="card-header">
         <h3>Julio Souto Salom</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/8500045280840862" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/8500045280840862" target="_blank" class="lattes-link">Lattes ↗</a>
+          
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-active">Pós-doc ✓</span>
         <span class="badge badge-info">Universidade Federal do Rio Grande do Sul, UFRGS, Brasil</span>
         <span class="badge badge-date">Atualizado: 22/06/2026</span>
+        
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">3</span><span class="stat-label">Projetos</span></div>
@@ -334,13 +373,17 @@ IdiomasEspanholCompreende Bem, Fala Bem, Lê Bem, Escreve Bem.PortuguêsCompreen
     <div class="card" data-name="leandro de paula santos" data-projects="21" data-citations="0" data-orientations="42">
       <div class="card-header">
         <h3>Leandro de Paula Santos</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/3833811692758640" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/3833811692758640" target="_blank" class="lattes-link">Lattes ↗</a>
+          
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-active">Pós-doc ✓</span>
         <span class="badge badge-info">Universidade Federal do Rio de Janeiro, UFRJ, Brasil</span>
         <span class="badge badge-date">Atualizado: 25/06/2026</span>
+        
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">21</span><span class="stat-label">Projetos</span></div>
@@ -365,13 +408,17 @@ Grande área: Ciências Humanas / Área: Sociologia / Subárea: Outras Sociol</d
     <div class="card" data-name="leonardo fernandes nascimento" data-projects="46" data-citations="445" data-orientations="48">
       <div class="card-header">
         <h3>Leonardo Fernandes Nascimento</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/K4765153H0" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/K4765153H0" target="_blank" class="lattes-link">Lattes ↗</a>
+          
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-active">Pós-doc ✓</span>
         <span class="badge badge-info">Universidade do Estado do Rio de Janeiro, UERJ, Brasil</span>
         <span class="badge badge-date">Atualizado: 25/06/2026</span>
+        
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">46</span><span class="stat-label">Projetos</span></div>
@@ -390,13 +437,17 @@ Grande área: Ciências Humanas / Área: Sociologia / Subárea: Outras Sociol</d
     <div class="card" data-name="lucas amaral de oliveira" data-projects="33" data-citations="0" data-orientations="56">
       <div class="card-header">
         <h3>Lucas Amaral de Oliveira</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/0974813858531390" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/0974813858531390" target="_blank" class="lattes-link">Lattes ↗</a>
+          
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-active">Pós-doc ✓</span>
         <span class="badge badge-info">Universidade de São Paulo, USP, Brasil</span>
         <span class="badge badge-date">Atualizado: 31/05/2026</span>
+        
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">33</span><span class="stat-label">Projetos</span></div>
@@ -412,22 +463,26 @@ Grande área: Ciências Humanas / Área: Sociologia / Subárea: Outras Sociol</d
       <p class="card-resumo">Professor do Departamento de Sociologia e coordenador do Programa de Pós-Graduação em Ciências Sociais da Universidade Federal da Bahia, onde lidera o PERIFÉRICAS  Núcleo de Estudos em Teorias Sociais, Modernidades e Colonialidades. Foi contemplado com bolsa de Produtividade em Pesquisa do CNPq  PQ-...</p>
       <div class="card-areas"><strong>Áreas:</strong> 1.Grande área: Ciências Humanas / Área: História / Subárea: História das Ideias.2.Grande área: Ciências Humanas / Área: História / Subárea: Teoria Social Contemporânea.3.Grande área: Ciências Humanas / Área: História / Subárea: Sociologia da Literatura.4.Grande área: Ciências Humanas / Área: História / Subárea: Sociologia da Cultura.5.Grande área: Ciências Humanas / Área: História / Subárea: LITER</div>
     </div>
-    <div class="card" data-name="luiz claudio lourenço" data-projects="40" data-citations="0" data-orientations="70">
+    <div class="card" data-name="luiz claudio lourenço" data-projects="40" data-citations="801" data-orientations="70">
       <div class="card-header">
         <h3>Luiz Claudio Lourenço</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/K4767407T9" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/K4767407T9" target="_blank" class="lattes-link">Lattes ↗</a>
+          <a href="https://scholar.google.com/citations?user=5WM4Wq4AAAAJ&hl=pt-BR" target="_blank" class="scholar-link">Scholar ↗</a>
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-active">Pós-doc ✓</span>
         <span class="badge badge-info">Instituto Universitário de Pesquisas do Rio de Janeiro, IUPE</span>
         <span class="badge badge-date">Atualizado: 29/05/2026</span>
+        <span class="badge badge-scholar">h-index: 14</span>
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">40</span><span class="stat-label">Projetos</span></div>
         <div class="stat"><span class="stat-num">70</span><span class="stat-label">Orientações</span></div>
         <div class="stat"><span class="stat-num">86</span><span class="stat-label">Bancas</span></div>
-        <div class="stat"><span class="stat-num">0</span><span class="stat-label">Citações</span></div>
+        <div class="stat"><span class="stat-num">801</span><span class="stat-label">Citações</span></div>
       </div>
       <div class="card-production">
         <span class="prod-item">📄 3 artigos</span>
@@ -437,22 +492,26 @@ Grande área: Ciências Humanas / Área: Sociologia / Subárea: Outras Sociol</d
       <p class="card-resumo">Possui bacharelado (1997) e mestrado (2000) em Ciências Sociais pela Universidade Federal de São Carlos e doutorado em Ciência Política (Ciência Política e Sociologia) pelo Instituto Universitário de Pesquisas do Rio de Janeiro (2007). É professor associado na Universidade Federal da Bahia - UFBA at...</p>
       <div class="card-areas"><strong>Áreas:</strong> 1.Grande área: Ciências Humanas / Área: Sociologia.2.Grande área: Ciências Humanas / Área: Sociologia / Subárea: Metodologia Quantitativa e Qualitativa.3.Grande área: Ciências Humanas / Área: Ciência Política / Subárea: Eleições.4.Grande área: Ciências Humanas / Área: Ciência Política / Subárea: Políticas Públicas.5.Grande área: Ciências Humanas / Área: Ciência Política / Subárea: Comportamento Po</div>
     </div>
-    <div class="card" data-name="maria gabriela hita" data-projects="81" data-citations="0" data-orientations="178">
+    <div class="card" data-name="maria gabriela hita" data-projects="81" data-citations="606" data-orientations="178">
       <div class="card-header">
         <h3>Maria Gabriela Hita</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/2408407341179334" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/2408407341179334" target="_blank" class="lattes-link">Lattes ↗</a>
+          <a href="https://scholar.google.com/citations?user=Mc7zoFkAAAAJ&hl=pt-BR" target="_blank" class="scholar-link">Scholar ↗</a>
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-active">Pós-doc ✓</span>
         <span class="badge badge-info">Universidade Estadual de Campinas, UNICAMP, Brasil</span>
         <span class="badge badge-date">Atualizado: 11/06/2026</span>
+        <span class="badge badge-scholar">h-index: 13</span>
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">81</span><span class="stat-label">Projetos</span></div>
         <div class="stat"><span class="stat-num">178</span><span class="stat-label">Orientações</span></div>
         <div class="stat"><span class="stat-num">70</span><span class="stat-label">Bancas</span></div>
-        <div class="stat"><span class="stat-num">0</span><span class="stat-label">Citações</span></div>
+        <div class="stat"><span class="stat-num">606</span><span class="stat-label">Citações</span></div>
       </div>
       <div class="card-production">
         <span class="prod-item">📄 3 artigos</span>
@@ -465,13 +524,17 @@ Grande área: Ciências Humanas / Área: Sociologia / Subárea: Outras Sociol</d
     <div class="card" data-name="maria rosário gonçalves de carvalho" data-projects="84" data-citations="0" data-orientations="148">
       <div class="card-header">
         <h3>Maria Rosário Gonçalves de Carvalho</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/1298757533709756" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/1298757533709756" target="_blank" class="lattes-link">Lattes ↗</a>
+          
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-off">Pós-doc </span>
         <span class="badge badge-info">Universidade de São Paulo, USP, Brasil</span>
         <span class="badge badge-date">Atualizado: 27/03/2026</span>
+        
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">84</span><span class="stat-label">Projetos</span></div>
@@ -491,22 +554,26 @@ Grande área: Ciências Humanas / Área: Antropologia / Subárea: Etnologia Ind�
 2.
 Grande área: Ciênc</div>
     </div>
-    <div class="card" data-name="mariana aparecida dos santos panta" data-projects="21" data-citations="104" data-orientations="24">
+    <div class="card" data-name="mariana aparecida dos santos panta" data-projects="21" data-citations="116" data-orientations="24">
       <div class="card-header">
         <h3>Mariana Aparecida dos Santos Panta</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/1563910977768814" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/1563910977768814" target="_blank" class="lattes-link">Lattes ↗</a>
+          <a href="https://scholar.google.com/citations?user=PkDx0bwAAAAJ&hl=pt-BR" target="_blank" class="scholar-link">Scholar ↗</a>
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-active">Pós-doc ✓</span>
         <span class="badge badge-info">Universidade Estadual Paulista Júlio de Mesquita Filho, UNES</span>
         <span class="badge badge-date">Atualizado: 10/04/2026</span>
+        <span class="badge badge-scholar">h-index: 5</span>
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">21</span><span class="stat-label">Projetos</span></div>
         <div class="stat"><span class="stat-num">24</span><span class="stat-label">Orientações</span></div>
         <div class="stat"><span class="stat-num">12</span><span class="stat-label">Bancas</span></div>
-        <div class="stat"><span class="stat-num">104</span><span class="stat-label">Citações</span></div>
+        <div class="stat"><span class="stat-num">116</span><span class="stat-label">Citações</span></div>
       </div>
       <div class="card-production">
         <span class="prod-item">📄 3 artigos</span>
@@ -523,13 +590,17 @@ Grande área: Ciências Humanas / Área: Sociologia / Subárea: Relações Racia
     <div class="card" data-name="mariana thorstensen possas" data-projects="24" data-citations="0" data-orientations="22">
       <div class="card-header">
         <h3>Mariana Thorstensen Possas</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/K4779766J8" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/K4779766J8" target="_blank" class="lattes-link">Lattes ↗</a>
+          
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-active">Pós-doc ✓</span>
         <span class="badge badge-info">University of Ottawa, U OF O, Canadá</span>
         <span class="badge badge-date">Atualizado: 03/11/2025</span>
+        
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">24</span><span class="stat-label">Projetos</span></div>
@@ -548,13 +619,17 @@ Grande área: Ciências Humanas / Área: Sociologia / Subárea: Relações Racia
     <div class="card" data-name="miriam cristina marcilio rabelo" data-projects="37" data-citations="0" data-orientations="114">
       <div class="card-header">
         <h3>Miriam Cristina Marcilio Rabelo</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/7239267596119717" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/7239267596119717" target="_blank" class="lattes-link">Lattes ↗</a>
+          
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-active">Pós-doc ✓</span>
         <span class="badge badge-info">University of Liverpool, LIVERPOOL, Inglaterra</span>
         <span class="badge badge-date">Atualizado: 26/03/2026</span>
+        
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">37</span><span class="stat-label">Projetos</span></div>
@@ -578,13 +653,17 @@ IdiomasInglêsCompreende Bem, Fala Bem, Lê Bem</div>
     <div class="card" data-name="paula cristina da silva" data-projects="17" data-citations="0" data-orientations="34">
       <div class="card-header">
         <h3>Paula Cristina da Silva</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/K4785350J1" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/K4785350J1" target="_blank" class="lattes-link">Lattes ↗</a>
+          
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-active">Pós-doc ✓</span>
         <span class="badge badge-info">Universidade de São Paulo, USP, Brasil</span>
         <span class="badge badge-date">Atualizado: 30/03/2026</span>
+        
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">17</span><span class="stat-label">Projetos</span></div>
@@ -604,13 +683,17 @@ IdiomasInglêsCompreende Bem, Fala Bem, Lê Bem</div>
     <div class="card" data-name="paulo césar borges alves" data-projects="34" data-citations="0" data-orientations="80">
       <div class="card-header">
         <h3>Paulo César Borges Alves</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/4053383742253379" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/4053383742253379" target="_blank" class="lattes-link">Lattes ↗</a>
+          
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-active">Pós-doc ✓</span>
         <span class="badge badge-info">University of Liverpool, LIVERPOOL, Inglaterra</span>
         <span class="badge badge-date">Atualizado: 10/02/2026</span>
+        
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">34</span><span class="stat-label">Projetos</span></div>
@@ -629,13 +712,17 @@ IdiomasInglêsCompreende Bem, Fala Bem, Lê Bem</div>
     <div class="card" data-name="rafael de aguiar arantes" data-projects="17" data-citations="184" data-orientations="58">
       <div class="card-header">
         <h3>Rafael de Aguiar Arantes</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/9187555671886787" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/9187555671886787" target="_blank" class="lattes-link">Lattes ↗</a>
+          
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-off">Pós-doc </span>
         <span class="badge badge-info">Universidade Federal da Bahia, UFBA, Brasil</span>
         <span class="badge badge-date">Atualizado: 09/06/2026</span>
+        
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">17</span><span class="stat-label">Projetos</span></div>
@@ -657,13 +744,17 @@ Grande área: Ciências Humanas / Área: Sociologia / Subárea: Sociologia Urban
     <div class="card" data-name="ricardo pagliuso regatieri" data-projects="17" data-citations="0" data-orientations="52">
       <div class="card-header">
         <h3>Ricardo Pagliuso Regatieri</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/3077741187299322" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/3077741187299322" target="_blank" class="lattes-link">Lattes ↗</a>
+          
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-active">Pós-doc ✓</span>
         <span class="badge badge-info">Universidade de São Paulo, USP, Brasil</span>
         <span class="badge badge-date">Atualizado: 16/04/2026</span>
+        
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">17</span><span class="stat-label">Projetos</span></div>
@@ -681,22 +772,26 @@ Grande área: Ciências Humanas / Área: Sociologia / Subárea: Sociologia Urban
 1.
 Grande área: Ciências Humanas / Área: Sociologia / Subárea: Teoria So</div>
     </div>
-    <div class="card" data-name="sue angélica serra iamamoto" data-projects="17" data-citations="0" data-orientations="50">
+    <div class="card" data-name="sue angélica serra iamamoto" data-projects="17" data-citations="186" data-orientations="50">
       <div class="card-header">
         <h3>Sue Angélica Serra Iamamoto</h3>
-        <div class="card-links"><a href="http://lattes.cnpq.br/4927287864728189" target="_blank" class="lattes-link">Lattes ↗</a></div>
+        <div class="card-links">
+          <a href="http://lattes.cnpq.br/4927287864728189" target="_blank" class="lattes-link">Lattes ↗</a>
+          <a href="https://scholar.google.com/citations?user=v1NVezkAAAAJ&hl=en" target="_blank" class="scholar-link">Scholar ↗</a>
+        </div>
       </div>
       <div class="card-meta">
         <span class="badge badge-active">Doutorado ✓</span>
         <span class="badge badge-active">Pós-doc ✓</span>
         <span class="badge badge-info">Queen Mary University of London, QMUL, Inglaterra</span>
         <span class="badge badge-date">Atualizado: 20/01/2026</span>
+        <span class="badge badge-scholar">h-index: 7</span>
       </div>
       <div class="card-stats">
         <div class="stat"><span class="stat-num">17</span><span class="stat-label">Projetos</span></div>
         <div class="stat"><span class="stat-num">50</span><span class="stat-label">Orientações</span></div>
         <div class="stat"><span class="stat-num">12</span><span class="stat-label">Bancas</span></div>
-        <div class="stat"><span class="stat-num">0</span><span class="stat-label">Citações</span></div>
+        <div class="stat"><span class="stat-num">186</span><span class="stat-label">Citações</span></div>
       </div>
       <div class="card-production">
         <span class="prod-item">📄 3 artigos</span>
@@ -720,12 +815,12 @@ Grande área: Ciências Humanas / Área: Sociologia / Subárea: Teoria So</div>
 <p class="update-info">Última atualização: 04/07/2026 · <a href="https://github.com/leofn/lattes_ppgcs">github.com/leofn/lattes_ppgcs</a></p>
 </footer>
 <script>
-const searchBox=document.getElementById('search');const cardsContainer=document.getElementById('cards');const noResults=document.getElementById('noResults');const sortButtons=document.querySelectorAll('.sort-btn');let currentSort='name';
-function filterCards(){const query=searchBox.value.toLowerCase();const cards=Array.from(cardsContainer.querySelectorAll('.card'));let visible=0;cards.forEach(card=>{const text=card.textContent.toLowerCase();if(text.includes(query)){card.style.display='';visible++;}else{card.style.display='none';}});noResults.style.display=visible===0?'block':'none';}
-function sortCards(sortBy){const cards=Array.from(cardsContainer.querySelectorAll('.card'));cards.sort((a,b)=>{if(sortBy==='name'){return a.dataset.name.localeCompare(b.dataset.name);}else{return parseInt(b.dataset[sortBy])-parseInt(a.dataset[sortBy]);}});cards.forEach(card=>cardsContainer.appendChild(card));}
-searchBox.addEventListener('input',filterCards);
-sortButtons.forEach(btn=>{btn.addEventListener('click',()=>{sortButtons.forEach(b=>b.classList.remove('active'));btn.classList.add('active');currentSort=btn.dataset.sort;sortCards(currentSort);});});
-sortCards('name');
+const s=document.getElementById('search'),c=document.getElementById('cards'),n=document.getElementById('noResults'),b=document.querySelectorAll('.sort-btn');let cs='name';
+function fc(){const q=s.value.toLowerCase();let v=0;Array.from(c.querySelectorAll('.card')).forEach(e=>{if(e.textContent.toLowerCase().includes(q)){e.style.display='';v++;}else{e.style.display='none';}});n.style.display=v===0?'block':'none';}
+function sc(t){Array.from(c.querySelectorAll('.card')).sort((a,b)=>t==='name'?a.dataset.name.localeCompare(b.dataset.name):parseInt(b.dataset[t])-parseInt(a.dataset[t])).forEach(e=>c.appendChild(e));}
+s.addEventListener('input',fc);
+b.forEach(e=>e.addEventListener('click',()=>{b.forEach(x=>x.classList.remove('active'));e.classList.add('active');cs=e.dataset.sort;sc(cs);}));
+sc('name');
 </script>
 </body>
 </html>
