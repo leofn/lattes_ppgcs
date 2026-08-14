@@ -51,8 +51,9 @@
   {
     "nome": "Jair Batista da Silva",
     "id": "K4768629T7",
-    "status": "skipped",
-    "file": "/home/hermes/scriptLattes/output/ppgcs/K4768629T7.json"
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/K4768629T7.json",
+    "size": 477075
   },
   {
     "nome": "Julio Souto Salom",
@@ -71,8 +72,9 @@
   {
     "nome": "Leonardo Fernandes Nascimento",
     "id": "K4765153H0",
-    "status": "skipped",
-    "file": "/home/hermes/scriptLattes/output/ppgcs/K4765153H0.json"
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/K4765153H0.json",
+    "size": 507332
   },
   {
     "nome": "Lucas Amaral de Oliveira",
@@ -84,8 +86,9 @@
   {
     "nome": "Luiz Claudio Lourenço",
     "id": "K4767407T9",
-    "status": "skipped",
-    "file": "/home/hermes/scriptLattes/output/ppgcs/K4767407T9.json"
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/K4767407T9.json",
+    "size": 647576
   },
   {
     "nome": "Maria Gabriela Hita",
@@ -111,8 +114,9 @@
   {
     "nome": "Mariana Thorstensen Possas",
     "id": "K4779766J8",
-    "status": "skipped",
-    "file": "/home/hermes/scriptLattes/output/ppgcs/K4779766J8.json"
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/K4779766J8.json",
+    "size": 523395
   },
   {
     "nome": "Miriam Cristina Marcilio Rabelo",
@@ -124,8 +128,9 @@
   {
     "nome": "Paula Cristina da Silva",
     "id": "K4785350J1",
-    "status": "skipped",
-    "file": "/home/hermes/scriptLattes/output/ppgcs/K4785350J1.json"
+    "status": "ok",
+    "file": "/home/hermes/scriptLattes/output/ppgcs/K4785350J1.json",
+    "size": 447477
   },
   {
     "nome": "Paulo César Borges Alves",
